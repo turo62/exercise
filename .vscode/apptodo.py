@@ -1,0 +1,5 @@
+employee_file = open("/home/turoczi/Dokumentumok/python/employee1.txt", "a")
+employee_file.write(input("Adj meg egy szöveget: "))
+employee_file.close()
+employee_file = open("/home/turoczi/Dokumentumok/python/employee1.txt", "r")
+print(employee_file.read())
