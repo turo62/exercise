@@ -20,7 +20,6 @@ def sort_nums(N, numbers):
                 j = j+1
     return numbers
 
-
 def main():
     N, numbers = get_input()
     print(numbers)
